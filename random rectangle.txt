@@ -1,0 +1,55 @@
+.data
+width: db #1, 200
+heigth: db #2, #50
+posx: db #3, #1
+posy: db #4, #1
+posxx: db #8, #1
+posyy: db #9, #1
+red: db #5, #0
+green: db #6, #0
+blue: db #7, #0
+
+rmax: db #10, 255
+rmin: db #11, 0
+
+.enddata
+
+.code
+
+INICIO:
+
+LD posx
+SUB width
+JZ RESET
+LD posx
+LD2 posy
+POS
+
+LD rmin
+LD2 rmax
+RND red
+RND green
+RND blue
+
+LD red
+LD2 green
+LD3 blue
+PXL
+LD posx
+ADD #1
+ST posx
+JMP INICIO
+
+RESET:
+LD posxx
+ST posx
+LD posy
+SUB heigth
+JZ FIM
+LD posy
+ADD #1
+ST posy
+JMP INICIO
+
+FIM:
+HALT

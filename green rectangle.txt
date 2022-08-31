@@ -1,0 +1,90 @@
+.data
+width: db #1, 200
+heigth: db #2, #50
+posx: db #3, #1
+posy: db #4, #1
+posxx: db #8, #1
+posyy: db #9, #1
+red: db #5, #0
+green: db #6, #255
+blue: db #7, #0
+
+.enddata
+
+.code
+
+INICIO:
+
+LD posx
+SUB width
+JZ DOWN
+LD posx
+LD2 posy
+POS
+LD red
+LD2 green
+LD3 blue
+PXL
+LD posx
+ADD #1
+ST posx
+JMP INICIO
+
+DOWN:
+LD posy
+SUB heigth
+JZ INIT2
+LD posx
+LD2 posy
+POS
+LD red
+LD2 green
+LD3 blue
+PXL
+LD posy
+ADD #1
+ST posy
+JMP DOWN
+
+INIT2:
+LD posxx
+ST posx
+INIT3:
+LD posx
+SUB width
+JZ INIT4
+LD posx
+LD2 posy
+POS
+LD red
+LD2 green
+LD3 blue
+PXL
+LD posx
+ADD #1
+ST posx
+JMP INIT3
+
+INIT4:
+LD posyy
+ST posy
+LD posxx
+ST posx
+INIT5:
+LD posy
+SUB heigth
+JZ FIM
+LD posx
+LD2 posy
+POS
+LD red
+LD2 green
+LD3 blue
+PXL
+LD posy
+ADD #1
+ST posy
+JMP INIT5
+
+FIM:
+HALT

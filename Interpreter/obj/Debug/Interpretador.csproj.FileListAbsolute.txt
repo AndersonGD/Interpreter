@@ -1,0 +1,30 @@
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\bin\Debug\Interpretador.exe.config
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\bin\Debug\Interpretador.exe
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\bin\Debug\Interpretador.pdb
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.csprojAssemblyReference.cache
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.Properties.Resources.resources
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.GenerateResource.cache
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.CoreCompileInputs.cache
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.exe
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.pdb
+D:\UNISINOS\Arquitetura Grafica\Interpretador\Interpretador\obj\Debug\Interpretador.canvas.resources
+E:\Interpretador\Interpretador\bin\Debug\Interpretador.exe.config
+E:\Interpretador\Interpretador\bin\Debug\Interpretador.exe
+E:\Interpretador\Interpretador\bin\Debug\Interpretador.pdb
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.csprojResolveAssemblyReference.cache
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.canvas.resources
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.Properties.Resources.resources
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.GenerateResource.Cache
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.CoreCompileInputs.cache
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.exe
+E:\Interpretador\Interpretador\obj\Debug\Interpretador.pdb
+G:\Interpretador\Interpretador\bin\Debug\Interpretador.exe.config
+G:\Interpretador\Interpretador\bin\Debug\Interpretador.exe
+G:\Interpretador\Interpretador\bin\Debug\Interpretador.pdb
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.csprojAssemblyReference.cache
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.canvas.resources
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.Properties.Resources.resources
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.GenerateResource.cache
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.csproj.CoreCompileInputs.cache
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.exe
+G:\Interpretador\Interpretador\obj\Debug\Interpretador.pdb
